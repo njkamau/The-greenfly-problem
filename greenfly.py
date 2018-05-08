@@ -10,7 +10,7 @@ def population_at_day_n(n):
     total = 0
     for i in range(1, n+1):
         total += offsprings_at_day_n(i)
-    return total + 1
+    return total + 1 #add initial parent
 
 if __name__ == "__main__":
     print("Day\t\tParents\t\tOffsprings\t\tTotal")
